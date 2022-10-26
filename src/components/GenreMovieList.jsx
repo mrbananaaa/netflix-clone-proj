@@ -22,7 +22,6 @@ const GenreMovieList = ({ title, fetchMovie, isLarge = false }) => {
     return () => fetchMovie();
   }, [fetchMovie]);
 
-  // console.log(`${title}: `, movies);
 
   return (
     <div className={style.wrapper}>
